@@ -28,3 +28,10 @@ Once all of the above has been completed, you may easily execute the bash script
 Finally! the script will initiate and command the Python RouterOS API to log into each device and deploy your configuration, if you do enjoy the purpose and easy of use, please share with others to help everyone save some precious time :)
 
 If you have any issues or questions, feel free to open an issue request so that we may collaborate!
+
+# NOTE
+
+* If you cannot log into a device, please let the script complete running so that it can reset the pre-determined IP address to `0.0.0.0` in `routeros.py` otherwise you will need to manual set the IP address to `0.0.0.0` to make the tool work again.
+
+
+# THERE ARE MANY UPDATES TO FOLLOW TO IMPROVE EASY OF USE FOR THIS TOOL :)
