@@ -1,4 +1,4 @@
-# Automate MikroTik Configuration With Python
+# Mass Deploy MikroTik Configuration With Python
 Rather than applying a configuration individually, and wasting precious time :) automate your configuration deployments with this simple tool. For starters you will need the following software installed on the system you will be using the tool from :
 
 * Pip
