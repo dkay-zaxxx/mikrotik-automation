@@ -10,7 +10,7 @@ search_content="$predetermined_content"
 
 for (( counter=0; counter<${#txt_lines[@]}; counter++)); do
 	line_content="${txt_lines[$counter]}"
-	echo -e "logging into switch ${line_content}"
+	echo -e "logging into device ${line_content}"
 	sed -i "s/$search_content/$line_content/g" "${routeros_py_script}"
 	python2.7 "$routeros_py_script"
 	search_content="$line_content"
