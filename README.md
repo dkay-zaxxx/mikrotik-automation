@@ -16,7 +16,7 @@ Along side with this software, you will need a place to centrally host your conf
 
 `pip2.7 install RouterOS-Api`
 
-`pip2.7 install ip-address`
+`pip2.7 install ip-address==1.4.2`
 
 `pip2.7 install ipaddress`
 
